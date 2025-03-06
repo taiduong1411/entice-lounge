@@ -4,8 +4,12 @@ import bgImage from "../assets/bg.jpg";
 import image1 from "../assets/image1.jpg";
 import image2 from "../assets/image2.jpg";
 import image3 from "../assets/image3.jpg";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 function Home() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   useEffect(() => {
     const lenis = new Lenis({
       duration: 1.2,
@@ -59,13 +63,13 @@ function Home() {
         <div className="relative bg-opacity-50 p-6 rounded-xl text-center">
           <h1 className="text-5xl font-bold tracking-wide">ENTICE LOUNGE</h1>
           <p className="text-gray-300 text-lg mt-4 max-w-2xl">
-            SIP - SAVOR -SEDUCE
+            SIP - SAVOR - SEDUCE
           </p>
           <div className="mt-10">
             <a
               href="https://www.facebook.com/profile.php?id=61572968996710#"
               className="mt-6 px-6 py-3 bg-[#ff0055] text-white font-semibold rounded-full hover:bg-[#e6004c] transition">
-              Booking Now
+              Booking now
             </a>
           </div>
         </div>
@@ -76,15 +80,20 @@ function Home() {
         {images.map((item, index) => (
           <div
             key={index}
-            className={`flex flex-col md:flex-row items-center gap-32 ${
+            className={`flex flex-col md:flex-row items-center max-[1200px]:gap-6 gap-32 ${
               index % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"
             }`}>
             <img
+              data-aos="fade-right"
+              data-aos-duration="2000"
               src={item.src}
               alt={`Gallery ${index + 1}`}
               className="w-full md:w-1/2 h-60 object-cover rounded-xl min-h-[600px]"
             />
-            <p className="text-gray-300 text-lg max-w-2xl font-sans">
+            <p
+              className="text-gray-300 text-lg max-w-2xl font-sans"
+              data-aos="zoom-in"
+              data-aos-duration="2000">
               {item.caption}
             </p>
           </div>

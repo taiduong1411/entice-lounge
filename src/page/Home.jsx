@@ -4,6 +4,17 @@ import bgImage from "../assets/bg.jpg";
 import image1 from "../assets/image1.jpg";
 import image2 from "../assets/image2.jpg";
 import image3 from "../assets/image3.jpg";
+import image4 from "../assets/image4.jpg";
+import image5 from "../assets/image5.jpg";
+import image6 from "../assets/image6.jpg";
+import image7 from "../assets/image7.jpg";
+import image8 from "../assets/image8.jpg";
+import image9 from "../assets/image9.jpg";
+import image10 from "../assets/image10.jpg";
+import image11 from "../assets/image11.jpg";
+import image12 from "../assets/image12.jpg";
+import image13 from "../assets/image13.jpg";
+
 import AOS from "aos";
 import "aos/dist/aos.css";
 function Home() {
@@ -12,10 +23,10 @@ function Home() {
   }, []);
   useEffect(() => {
     const lenis = new Lenis({
-      duration: 1.2,
+      duration: 3,
       easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
       direction: "vertical",
-      gestureDirection: "vertical",
+      gestureDirection: "both",
       smooth: true,
       smoothTouch: false,
       touchMultiplier: 2,
@@ -45,6 +56,56 @@ function Home() {
     },
     {
       src: image3,
+      caption:
+        "Entice Lounge không chỉ là nơi thưởng thức đồ uống tuyệt hảo mà còn là điểm đến của những khoảnh khắc sôi động và vui nhộn. Không gian ngập tràn âm nhạc, ánh sáng rực rỡ cùng những trò chơi giải trí như phi tiêu, tạo nên bầu không khí náo nhiệt. Khách hàng có thể thả mình vào những bản nhạc sôi động, cười đùa cùng bạn bè, tham gia các trò chơi hấp dẫn và tận hưởng những ly cocktail đầy mê hoặc. Mỗi đêm tại Entice Lounge đều là một trải nghiệm khó quên, tràn ngập niềm vui và sự hứng khởi!",
+    },
+    {
+      src: image4,
+      caption:
+        "Entice Lounge không chỉ là nơi thưởng thức đồ uống tuyệt hảo mà còn là điểm đến của những khoảnh khắc sôi động và vui nhộn. Không gian ngập tràn âm nhạc, ánh sáng rực rỡ cùng những trò chơi giải trí như phi tiêu, tạo nên bầu không khí náo nhiệt. Khách hàng có thể thả mình vào những bản nhạc sôi động, cười đùa cùng bạn bè, tham gia các trò chơi hấp dẫn và tận hưởng những ly cocktail đầy mê hoặc. Mỗi đêm tại Entice Lounge đều là một trải nghiệm khó quên, tràn ngập niềm vui và sự hứng khởi!",
+    },
+    {
+      src: image5,
+      caption:
+        "Entice Lounge không chỉ là nơi thưởng thức đồ uống tuyệt hảo mà còn là điểm đến của những khoảnh khắc sôi động và vui nhộn. Không gian ngập tràn âm nhạc, ánh sáng rực rỡ cùng những trò chơi giải trí như phi tiêu, tạo nên bầu không khí náo nhiệt. Khách hàng có thể thả mình vào những bản nhạc sôi động, cười đùa cùng bạn bè, tham gia các trò chơi hấp dẫn và tận hưởng những ly cocktail đầy mê hoặc. Mỗi đêm tại Entice Lounge đều là một trải nghiệm khó quên, tràn ngập niềm vui và sự hứng khởi!",
+    },
+    {
+      src: image6,
+      caption:
+        "Entice Lounge không chỉ là nơi thưởng thức đồ uống tuyệt hảo mà còn là điểm đến của những khoảnh khắc sôi động và vui nhộn. Không gian ngập tràn âm nhạc, ánh sáng rực rỡ cùng những trò chơi giải trí như phi tiêu, tạo nên bầu không khí náo nhiệt. Khách hàng có thể thả mình vào những bản nhạc sôi động, cười đùa cùng bạn bè, tham gia các trò chơi hấp dẫn và tận hưởng những ly cocktail đầy mê hoặc. Mỗi đêm tại Entice Lounge đều là một trải nghiệm khó quên, tràn ngập niềm vui và sự hứng khởi!",
+    },
+    {
+      src: image7,
+      caption:
+        "Entice Lounge không chỉ là nơi thưởng thức đồ uống tuyệt hảo mà còn là điểm đến của những khoảnh khắc sôi động và vui nhộn. Không gian ngập tràn âm nhạc, ánh sáng rực rỡ cùng những trò chơi giải trí như phi tiêu, tạo nên bầu không khí náo nhiệt. Khách hàng có thể thả mình vào những bản nhạc sôi động, cười đùa cùng bạn bè, tham gia các trò chơi hấp dẫn và tận hưởng những ly cocktail đầy mê hoặc. Mỗi đêm tại Entice Lounge đều là một trải nghiệm khó quên, tràn ngập niềm vui và sự hứng khởi!",
+    },
+    {
+      src: image8,
+      caption:
+        "Entice Lounge không chỉ là nơi thưởng thức đồ uống tuyệt hảo mà còn là điểm đến của những khoảnh khắc sôi động và vui nhộn. Không gian ngập tràn âm nhạc, ánh sáng rực rỡ cùng những trò chơi giải trí như phi tiêu, tạo nên bầu không khí náo nhiệt. Khách hàng có thể thả mình vào những bản nhạc sôi động, cười đùa cùng bạn bè, tham gia các trò chơi hấp dẫn và tận hưởng những ly cocktail đầy mê hoặc. Mỗi đêm tại Entice Lounge đều là một trải nghiệm khó quên, tràn ngập niềm vui và sự hứng khởi!",
+    },
+    {
+      src: image9,
+      caption:
+        "Entice Lounge không chỉ là nơi thưởng thức đồ uống tuyệt hảo mà còn là điểm đến của những khoảnh khắc sôi động và vui nhộn. Không gian ngập tràn âm nhạc, ánh sáng rực rỡ cùng những trò chơi giải trí như phi tiêu, tạo nên bầu không khí náo nhiệt. Khách hàng có thể thả mình vào những bản nhạc sôi động, cười đùa cùng bạn bè, tham gia các trò chơi hấp dẫn và tận hưởng những ly cocktail đầy mê hoặc. Mỗi đêm tại Entice Lounge đều là một trải nghiệm khó quên, tràn ngập niềm vui và sự hứng khởi!",
+    },
+    {
+      src: image10,
+      caption:
+        "Entice Lounge không chỉ là nơi thưởng thức đồ uống tuyệt hảo mà còn là điểm đến của những khoảnh khắc sôi động và vui nhộn. Không gian ngập tràn âm nhạc, ánh sáng rực rỡ cùng những trò chơi giải trí như phi tiêu, tạo nên bầu không khí náo nhiệt. Khách hàng có thể thả mình vào những bản nhạc sôi động, cười đùa cùng bạn bè, tham gia các trò chơi hấp dẫn và tận hưởng những ly cocktail đầy mê hoặc. Mỗi đêm tại Entice Lounge đều là một trải nghiệm khó quên, tràn ngập niềm vui và sự hứng khởi!",
+    },
+    {
+      src: image11,
+      caption:
+        "Entice Lounge không chỉ là nơi thưởng thức đồ uống tuyệt hảo mà còn là điểm đến của những khoảnh khắc sôi động và vui nhộn. Không gian ngập tràn âm nhạc, ánh sáng rực rỡ cùng những trò chơi giải trí như phi tiêu, tạo nên bầu không khí náo nhiệt. Khách hàng có thể thả mình vào những bản nhạc sôi động, cười đùa cùng bạn bè, tham gia các trò chơi hấp dẫn và tận hưởng những ly cocktail đầy mê hoặc. Mỗi đêm tại Entice Lounge đều là một trải nghiệm khó quên, tràn ngập niềm vui và sự hứng khởi!",
+    },
+    {
+      src: image12,
+      caption:
+        "Entice Lounge không chỉ là nơi thưởng thức đồ uống tuyệt hảo mà còn là điểm đến của những khoảnh khắc sôi động và vui nhộn. Không gian ngập tràn âm nhạc, ánh sáng rực rỡ cùng những trò chơi giải trí như phi tiêu, tạo nên bầu không khí náo nhiệt. Khách hàng có thể thả mình vào những bản nhạc sôi động, cười đùa cùng bạn bè, tham gia các trò chơi hấp dẫn và tận hưởng những ly cocktail đầy mê hoặc. Mỗi đêm tại Entice Lounge đều là một trải nghiệm khó quên, tràn ngập niềm vui và sự hứng khởi!",
+    },
+    {
+      src: image13,
       caption:
         "Entice Lounge không chỉ là nơi thưởng thức đồ uống tuyệt hảo mà còn là điểm đến của những khoảnh khắc sôi động và vui nhộn. Không gian ngập tràn âm nhạc, ánh sáng rực rỡ cùng những trò chơi giải trí như phi tiêu, tạo nên bầu không khí náo nhiệt. Khách hàng có thể thả mình vào những bản nhạc sôi động, cười đùa cùng bạn bè, tham gia các trò chơi hấp dẫn và tận hưởng những ly cocktail đầy mê hoặc. Mỗi đêm tại Entice Lounge đều là một trải nghiệm khó quên, tràn ngập niềm vui và sự hứng khởi!",
     },
@@ -88,7 +149,7 @@ function Home() {
               data-aos-duration="2000"
               src={item.src}
               alt={`Gallery ${index + 1}`}
-              className="w-full md:w-1/2 h-60 object-cover rounded-xl min-h-[600px]"
+              className="w-full h-60 md:w-1/2 object-cover rounded-xl min-h-[500px]"
             />
             <p
               className="text-gray-300 text-lg max-w-2xl font-sans"
